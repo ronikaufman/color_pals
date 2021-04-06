@@ -1,2 +1,1 @@
-# let_palette
- 
+# Color pals
