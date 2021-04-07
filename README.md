@@ -1,1 +1,1 @@
-# Color pals
+# Color Pals
