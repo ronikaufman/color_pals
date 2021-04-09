@@ -1,0 +1,27 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(255, 255, 255);
+  text-align: center
+}
+
+header {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 48px;
+}
+
+p.code {
+  font-family: 'Nanum Gothic Coding', monospace;
+  padding: 10px;
+  background: #f6f6f6;
+  border: 1px solid #999;
+}
+
+p.palette_name {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 24px;
+}
+
+div.palette {
+  margin-bottom: 2cm;
+}

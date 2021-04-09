@@ -33,9 +33,13 @@ function createPalette(p) {
       let x = 0;
       for (let c of p.colors) {
         sketch.fill(c);
-        sketch.rect(x, 0, w, canvas.height);
+        sketch.rect(x, 0, w+1, canvas.height);
         x += w;
       }
+      sketch.stroke(0);
+      sketch.strokeWeight(4);
+      sketch.noFill();
+      sketch.rect(0, 0, canvas.width, canvas.height);
       canvas.parent(container);
 
       let codeString = "[";
