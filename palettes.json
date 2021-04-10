@@ -1,7 +1,11 @@
 [
   {
-    "name": "YK",
+    "name": "Science",
     "colors": ["#ffe819", "#000000"]
+  },
+  {
+    "name": "Mondrian",
+    "colors": ["#13160e", "#ebebeb", "#456abb", "#e9ce31", "#d84028"]
   },
   {
     "name": "1115",
@@ -14,6 +18,10 @@
   {
     "name": "Paint",
     "colors": ["#b30000", "#e6cf00", "#1283b3", "#fafafa", "#0a0a0a"]
+  },
+  {
+    "name": "Cheddar",
+    "colors": ["#ff7b00", "#ff8800", "#ff9500", "#ffa200", "#ffaa00", "#ffb700", "#ffc300", "#ffd000", "#ffdd00", "#ffea00"]
   },
   {
     "name": "Morning",
@@ -29,11 +37,7 @@
   },
   {
     "name": "Stars",
-    "colors": ["#0a1966", "#fff700", "#fafafa"]
-  },
-  {
-    "name": "Mondrian",
-    "colors": ["#13160e", "#ebebeb", "#456abb", "#e9ce31", "#d84028"]
+    "colors": ["#0a1966", "#ffef0d", "#fafafa"]
   },
   {
     "name": "Data",
@@ -50,9 +54,5 @@
   {
     "name": "Tetronimos",
     "colors": ["#01f0f1", "#0101f0", "#efa000", "#eff200", "#00f100", "#f00100", "#a000f3"]
-  },
-  {
-    "name": "Cheddar",
-    "colors": ["#ff7b00", "#ff8800", "#ff9500", "#ffa200", "#ffaa00", "#ffb700", "#ffc300", "#ffd000", "#ffdd00", "#ffea00"]
   }
 ]
