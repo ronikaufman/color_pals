@@ -32,10 +32,6 @@
     "colors": ["#0a1966", "#fff700", "#fafafa"]
   },
   {
-    "name": "Tetronimos",
-    "colors": ["#01f0f1", "#0101f0", "#efa000", "#eff200", "#00f100", "#f00100", "#a000f3"]
-  },
-  {
     "name": "Mondrian",
     "colors": ["#13160e", "#ebebeb", "#456abb", "#e9ce31", "#d84028"]
   },
@@ -44,15 +40,19 @@
     "colors": ["#f9f9f9", "#ff0000", "#0000ff"]
   },
   {
-    "name": "Cheddar",
-    "colors": ["#ff7b00", "#ff8800", "#ff9500", "#ffa200", "#ffaa00", "#ffb700", "#ffc300", "#ffd000", "#ffdd00", "#ffea00"]
-  },
-  {
     "name": "Marble",
     "colors": ["#218ad4", "#76df55", "#0b1435", "#ffffff"]
   },
   {
     "name": "Lesson",
     "colors": ["#ed225d", "#3caf65", "#0d40bf", "#f5b800", "#2a2a2a"]
+  },
+  {
+    "name": "Tetronimos",
+    "colors": ["#01f0f1", "#0101f0", "#efa000", "#eff200", "#00f100", "#f00100", "#a000f3"]
+  },
+  {
+    "name": "Cheddar",
+    "colors": ["#ff7b00", "#ff8800", "#ff9500", "#ffa200", "#ffaa00", "#ffb700", "#ffc300", "#ffd000", "#ffdd00", "#ffea00"]
   }
 ]

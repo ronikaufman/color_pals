@@ -36,10 +36,12 @@ function createPalette(p) {
         sketch.rect(x, 0, w+1, canvas.height);
         x += w;
       }
-      sketch.stroke(0);
       sketch.strokeWeight(4);
       sketch.noFill();
-      sketch.rect(0, 0, canvas.width, canvas.height);
+      sketch.stroke(255);
+      sketch.rect(2, 2, canvas.width-4, canvas.height-4, 0);
+      sketch.stroke(0);
+      sketch.rect(2, 2, canvas.width-4, canvas.height-4, 4);
       canvas.parent(container);
 
       let codeString = "[";
