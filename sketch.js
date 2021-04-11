@@ -49,9 +49,9 @@ function createPalette(p) {
         codeString += c + ", ";
       }
       codeString = codeString.substring(0, codeString.length-2) + "]";
-      let code = sketch.createP(codeString);
-      code.class("code");
-      code.parent(container);
+      let codeP = sketch.createP(codeString);
+      codeP.class("code");
+      codeP.parent(container);
     };
   }, contentDiv);
 }

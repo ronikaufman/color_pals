@@ -6,13 +6,13 @@ html, body {
 }
 
 header {
-  font-family: 'Nanum Pen Script', cursive;
-  font-size: 48px;
+  font-family: 'Capriola', sans-serif;
+  font-size: 52px;
   height: 78px;
 }
 
 p.code {
-  font-family: 'Nanum Gothic Coding', monospace;
+  font-family: 'Inconsolata', monospace;
   font-size: 16px;
   padding: 10px;
   background: #f6f6f6;
@@ -23,14 +23,15 @@ p.code {
 }
 
 p.palette_name {
-  font-family: 'Nanum Gothic', sans-serif;
-  font-size: 22px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+  margin-bottom: 12px;
 }
 
 div.palette {
   margin-left: 10px;
   margin-right: 10px;
-  padding-bottom: 10px;
+  margin-bottom: 0px;
   width: 520px;
   height: 280px;
   display: inline-block;
@@ -39,7 +40,7 @@ div.palette {
 
 div.footer {
   margin-top: 20px;
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 16px;
 }
 
