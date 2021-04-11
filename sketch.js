@@ -44,11 +44,11 @@ function createPalette(p) {
       sketch.rect(2, 2, canvas.width-4, canvas.height-4, 4);
       canvas.parent(container);
 
-      let codeString = "[";
+      let codeString = "[\"";
       for (let c of p.colors) {
-        codeString += c + ", ";
+        codeString += c + "\", \"";
       }
-      codeString = codeString.substring(0, codeString.length-2) + "]";
+      codeString = codeString.substring(0, codeString.length-3) + "]";
       let codeP = sketch.createP(codeString);
       codeP.class("code");
       codeP.parent(container);
