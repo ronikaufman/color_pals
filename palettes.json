@@ -54,5 +54,29 @@
   {
     "name": "Tetronimos",
     "colors": ["#01f0f1", "#0101f0", "#efa000", "#eff200", "#00f100", "#f00100", "#a000f3"]
+  },
+  {
+    "name": "Tropical",
+    "colors": ["#3f7373", "#4d8c8c", "#5ba6a6", "#69bfbf", "#77d9d9", "#f0de84", "#c5d419", "#63991f"]
+  },
+  {
+    "name": "Meta",
+    "colors": ["#226699", "#dd2e44", "#ffcc4d"]
+  },
+  {
+    "name": "Splash",
+    "colors": ["#32312e", "#795330", "#c7ae82", "#f5f2e3"]
+  },
+  {
+    "name": "Sheets",
+    "colors": ["#025760", "#7fd0d3", "#b3ead7", "#eff7F5", "#fae9c1", "#f8ca75", "#e88d44"]
+  },
+  {
+    "name": "Her",
+    "colors": ["#cd1440", "#fafafa"]
+  },
+  {
+    "name": "Fans",
+    "colors": ["#000000", "#83a6bc", "#faece1", "#bab1a8"]
   }
 ]
