@@ -78,5 +78,25 @@
   {
     "name": "Fans",
     "colors": ["#000000", "#83a6bc", "#faece1", "#bab1a8"]
+  },
+  {
+    "name": "Escape",
+    "colors": ["#f3e17e", "#dd483c", "#4b8a5f", "#0d150b", "#faf8e2"]
+  },
+  {
+    "name": "Light",
+    "colors": ["#00b2b4", "#fdd35b", "#3b4696", "#f4737d", "#333333"]
+  },
+  {
+    "name": "Freak",
+    "colors": ["#07224f", "#ed361a", "#fc8405", "#f7c72a"]
+  },
+  {
+    "name": "Arcade",
+    "colors": ["#021d34", "#228fca", "#dcedf0"]
+  },
+  {
+    "name": "Play",
+    "colors": ["#e4000c", "#fede00", "#ffffff", "#000000"]
   }
 ]
