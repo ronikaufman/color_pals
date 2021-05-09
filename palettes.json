@@ -97,6 +97,18 @@
   },
   {
     "name": "Play",
-    "colors": ["#e4000c", "#fede00", "#ffffff", "#000000"]
+    "colors": ["#e20404", "#fcd202", "#ffffff", "#000000"]
+  },
+  {
+    "name": "Cloudy",
+    "colors": ["#044e9e", "#6190d3", "#fcf7ed", "#fcd494", "#f4b804"]
+  },
+  {
+    "name": "Repetition",
+    "colors": ["#2c2060", "#4bd3e5", "#fffbe6", "#ffd919", "#ff4f19"]
+  },
+  {
+    "name": "Cube",
+    "colors": ["#fde200", "#ef2626", "#5600ae", "#713df5"]
   }
 ]
