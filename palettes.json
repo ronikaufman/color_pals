@@ -114,5 +114,13 @@
   {
     "name": "Commit",
     "colors": ["#563d7c", "#0096d8", "#f4e361", "#f24679"]
+  },
+  {
+    "name": "North",
+    "colors": ["#dc060e", "#ffd400", "#0064b0", "#001a5b", "#ffffff"]
+  },
+  {
+    "name": "Flat",
+    "colors": ["#203051", "#4464a1", "#62b6de", "#b3dce0", "#e2f0f3"]
   }
 ]
