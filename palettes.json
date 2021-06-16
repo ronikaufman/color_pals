@@ -122,5 +122,25 @@
   {
     "name": "Flat",
     "colors": ["#203051", "#4464a1", "#62b6de", "#b3dce0", "#e2f0f3"]
+  },
+  {
+    "name": "Avantgarde",
+    "colors": ["#f398c3", "#cf3895", "#a0d28d", "#06b4b0", "#fef45f", "#fed000", "#0c163f"]
+  },
+  {
+    "name": "Lizard",
+    "colors": ["#fff247", "#47e9ff", "#8447ff", "#ff47ce"]
+  },
+  {
+    "name": "Arcs",
+    "colors": ["#ff3232", "#ff9932", "#ffff32", "#32ff32", "#32ffff", "#3232ff", "#ff32ff"]
+  },
+  {
+    "name": "Edit",
+    "colors": ["#1c1c1c", "#f47a9d", "#f4ea7a", "#f2f2f2"]
+  },
+  {
+    "name": "Wheel",
+    "colors": ["#ffe140", "#ffa922", "#1bc0c6", "#2484ae", "#134e6e"]
   }
 ]
