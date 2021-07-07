@@ -142,5 +142,21 @@
   {
     "name": "Wheel",
     "colors": ["#ffe140", "#ffa922", "#1bc0c6", "#2484ae", "#134e6e"]
+  },
+  {
+    "name": "Left",
+    "colors": ["#070213", "#1c0541", "#300560", "#3e137f", "#412287", "#3b3d8c", "#e6f41c"]
+  },
+  {
+    "name": "Connection",
+    "colors": ["#f24358", "#f2a643", "#f2e343", "#43f278", "#43a0f2", "#c343f2"]
+  },
+  {
+    "name": "Wave",
+    "colors": ["#008cff", "#0099ff", "#00a5ff", "#00b2ff", "#00bfff", "#00cbff", "#00d8ff", "#00e5ff", "#00f2ff", "#00ffff"]
+  },
+  {
+    "name": "Tek",
+    "colors": ["#fcf7ed", "#c6c3ba", "#a5a29b", "#fcde97", "#fccf64"]
   }
 ]
