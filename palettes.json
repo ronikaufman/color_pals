@@ -158,5 +158,13 @@
   {
     "name": "Tek",
     "colors": ["#fcf7ed", "#c6c3ba", "#a5a29b", "#fcde97", "#fccf64"]
+  },
+  {
+    "name": "Pie",
+    "colors": ["#fdcc01", "#f60001", "#001ea6", "#007d45", "#040a07", "#f1ebf7"]
+  },
+  {
+    "name": "Optical",
+    "colors": ["#f2eb8a", "#fed000", "#fc8405", "#ed361a", "#e2f0f3", "#b3dce0", "#4464a1", "#203051", "#ffc5c7", "#f398c3", "#cf3895", "#6d358a", "#06b4b0", "#4b8a5f"]
   }
 ]
