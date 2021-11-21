@@ -166,5 +166,13 @@
   {
     "name": "Optical",
     "colors": ["#f2eb8a", "#fed000", "#fc8405", "#ed361a", "#e2f0f3", "#b3dce0", "#4464a1", "#203051", "#ffc5c7", "#f398c3", "#cf3895", "#6d358a", "#06b4b0", "#4b8a5f"]
+  },
+  {
+    "name": "Homage",
+    "colors": ["#fef9c6", "#ffcc4d", "#f5b800", "#56a1c4", "#4464a1", "#ee726b", "#df5f50", "#5a3034"]
+  },
+  {
+    "name": "Ten",
+    "colors": ["#2d2de5", "#f0f0fa", "#9696a0", "#1e1e28"]
   }
 ]
