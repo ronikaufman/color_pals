@@ -40,10 +40,6 @@
     "colors": ["#0a1966", "#ffef0d", "#fafafa"]
   },
   {
-    "name": "Data",
-    "colors": ["#f9f9f9", "#ff0000", "#0000ff"]
-  },
-  {
     "name": "Marble",
     "colors": ["#218ad4", "#76df55", "#0b1435", "#ffffff"]
   },
@@ -128,14 +124,6 @@
     "colors": ["#f398c3", "#cf3895", "#a0d28d", "#06b4b0", "#fef45f", "#fed000", "#0c163f"]
   },
   {
-    "name": "Lizard",
-    "colors": ["#fff247", "#47e9ff", "#8447ff", "#ff47ce"]
-  },
-  {
-    "name": "Arcs",
-    "colors": ["#ff3232", "#ff9932", "#ffff32", "#32ff32", "#32ffff", "#3232ff", "#ff32ff"]
-  },
-  {
     "name": "Edit",
     "colors": ["#1c1c1c", "#f47a9d", "#f4ea7a", "#f2f2f2"]
   },
@@ -160,10 +148,6 @@
     "colors": ["#fcf7ed", "#c6c3ba", "#a5a29b", "#fcde97", "#fccf64"]
   },
   {
-    "name": "Pie",
-    "colors": ["#fdcc01", "#f60001", "#001ea6", "#007d45", "#040a07", "#f1ebf7"]
-  },
-  {
     "name": "Optical",
     "colors": ["#f2eb8a", "#fed000", "#fc8405", "#ed361a", "#e2f0f3", "#b3dce0", "#4464a1", "#203051", "#ffc5c7", "#f398c3", "#cf3895", "#6d358a", "#06b4b0", "#4b8a5f"]
   },
@@ -172,7 +156,15 @@
     "colors": ["#fef9c6", "#ffcc4d", "#f5b800", "#56a1c4", "#4464a1", "#ee726b", "#df5f50", "#5a3034"]
   },
   {
+    "name": "Cube",
+    "colors": ["#d6d1b4", "#bab397", "#44473f", "#292e2a"]
+  },
+  {
+    "name": "Base",
+    "colors": ["#f0f0f0", "#8c8c8c", "#0f0f0f", "#0863d3", "#f5d216", "#f43809", "#08b233", "#9913bf"]
+  },
+  {
     "name": "Ten",
-    "colors": ["#2d2de5", "#f0f0fa", "#9696a0", "#1e1e28"]
+    "colors": ["#fffbe6", "#050505", "#abcd5e", "#29ac9f", "#14976b", "#b3dce0", "#62b6de", "#2b67af", "#f589a3", "#ef562f", "#fc8405", "#f9d531"]
   }
 ]
