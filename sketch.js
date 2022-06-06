@@ -1,33 +1,34 @@
 let contentDiv;
-let palettes;
 
 window.onload = function() {
   contentDiv = document.getElementById("content");
-  let myp5 = new p5((sketch) => {
-    palettes = sketch.loadJSON("palettes.json", makePalettes);
-  });
+  fetch("./palettes.json")
+  .then(response => response.json())
+  .then(jsondata => makePalettes(jsondata));
 };
 
-function makePalettes() {
+function makePalettes(palettes) {
   for (let i = 0; i < Object.keys(palettes).length; i++) {
     createPalette(palettes[i]);
   }
-
-  let uselessCanvas = document.getElementById("defaultCanvas0");
-  uselessCanvas.parentNode.removeChild(uselessCanvas);
 }
 
 function createPalette(p) {
   let palettep5 = new p5((sketch) => {
     sketch.setup = () => {
+      let divWidth = 520;
+      if (sketch.windowWidth < 520) divWidth = sketch.windowWidth;
+      console.log(divWidth)
+
       let container = sketch.createDiv();
       container.class("palette");
+      container.style("width", (divWidth-40)+"px");
 
       let title = sketch.createP(p.name);
       title.class("palette_name");
       title.parent(container);
 
-      let canvas = sketch.createCanvas(500, 100);
+      let canvas = sketch.createCanvas(divWidth-40, 100);
       sketch.noStroke();
       let w = canvas.width/p.colors.length;
       let x = 0;
@@ -36,12 +37,13 @@ function createPalette(p) {
         sketch.rect(x, 0, w+1, canvas.height);
         x += w;
       }
-      sketch.strokeWeight(4);
+      let sw = 3;
+      sketch.strokeWeight(sw);
       sketch.noFill();
       sketch.stroke(255);
-      sketch.rect(2, 2, canvas.width-4, canvas.height-4, 0);
+      sketch.rect(sw/2, sw/2, canvas.width-sw, canvas.height-sw, 0);
       sketch.stroke(0);
-      sketch.rect(2, 2, canvas.width-4, canvas.height-4, 4);
+      sketch.rect(sw/2, sw/2, canvas.width-sw, canvas.height-sw, 9);
       canvas.parent(container);
 
       let codeString = "[\"";
@@ -51,6 +53,7 @@ function createPalette(p) {
       codeString = codeString.substring(0, codeString.length-3) + "]";
       let codeP = sketch.createP(codeString);
       codeP.class("code");
+      //codeP.style("width", (divWidth-40)+"px");
       codeP.parent(container);
     };
   }, contentDiv);
