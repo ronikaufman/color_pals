@@ -1,0 +1,26 @@
+{
+  "name": "color_pals",
+  "version": "1.0.0",
+  "description": "A collection of curated color palettes",
+  "main": "palettes.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronikaufman/color_pals.git"
+  },
+  "keywords": [
+    "color",
+    "colour",
+    "generative",
+    "art",
+    "palettes"
+  ],
+  "author": "Roni Kaufmann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ronikaufman/color_pals/issues"
+  },
+  "homepage": "https://github.com/ronikaufman/color_pals#readme"
+}
