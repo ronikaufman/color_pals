@@ -1,6 +1,6 @@
 {
   "name": "color_pals",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A collection of curated color palettes",
   "main": "palettes.json",
   "scripts": {

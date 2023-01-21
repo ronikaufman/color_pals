@@ -18,7 +18,6 @@ function createPalette(p) {
     sketch.setup = () => {
       let divWidth = 520;
       if (sketch.windowWidth < 520) divWidth = sketch.windowWidth;
-      console.log(divWidth)
 
       let container = sketch.createDiv();
       container.class("palette");
