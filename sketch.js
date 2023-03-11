@@ -13,6 +13,26 @@ function makePalettes(palettes) {
   }
 }
 
+function getFixedPointFromHex(hexString) {
+  let asFloat = parseInt(hexString, 16) / 255
+  return parseFloat(asFloat.toFixed(3));
+}
+
+function getBlenderColor(hexString) {
+  let hex = hexString.substring(1);
+  return [
+    getFixedPointFromHex(hex.slice(0, 2)), // red
+    getFixedPointFromHex(hex.slice(2, 4)), // green
+    getFixedPointFromHex(hex.slice(4, 6)), // blue
+    1, // alpha
+  ]
+}
+
+function isBlenderModeActive() {
+  let urlParams = new URLSearchParams(window.location.search);
+  return urlParams.has("blender");
+}
+
 function createPalette(p) {
   let palettep5 = new p5((sketch) => {
     sketch.setup = () => {
@@ -45,11 +65,24 @@ function createPalette(p) {
       sketch.rect(sw/2, sw/2, canvas.width-sw, canvas.height-sw, 9);
       canvas.parent(container);
 
-      let codeString = "[\"";
-      for (let c of p.colors) {
-        codeString += c + "\", \"";
+      let codeString;
+      if (isBlenderModeActive()) {
+        // write four-tuple float colors
+        codeString = "";
+        for (let c of p.colors) {
+          codeString += "[";
+          codeString += getBlenderColor(c);
+          codeString += "] ";
+        }
+      } else {
+        // write hex colors
+        codeString = "[\"";
+        for (let c of p.colors) {
+          codeString += c + "\", \"";
+        }
+        codeString = codeString.substring(0, codeString.length-3) + "]";
       }
-      codeString = codeString.substring(0, codeString.length-3) + "]";
+
       let codeP = sketch.createP(codeString);
       codeP.class("code");
       //codeP.style("width", (divWidth-40)+"px");
