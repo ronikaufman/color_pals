@@ -14,8 +14,9 @@ function makePalettes(palettes) {
 }
 
 function getFixedPointFromHex(hexString) {
-  let asFloat = parseInt(hexString, 16) / 255
-  return parseFloat(asFloat.toFixed(3));
+  let rawFloat = parseInt(hexString, 16) / 255;
+  let gammaCorrectedFloat = Math.pow(rawFloat, 2.2);
+  return parseFloat(gammaCorrectedFloat.toFixed(3));
 }
 
 function getBlenderColor(hexString) {
