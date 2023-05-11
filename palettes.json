@@ -173,6 +173,10 @@
   },
   {
     "name": "Lab",
-    "colors": ["#e5d62d", "#e52dbd", "#982de5", "#2d95e5", "#2de5e5"]
+    "colors": ["#061922", "#e5d62d", "#e52dbd", "#982de5", "#92f0e5"]
+  },
+  {
+    "name": "Right",
+    "colors": ["#4464a1", "#62b6de", "#b3dce0", "#fafafa", "#ffc5c7", "#ee726b", "#cd1440"]
   }
 ]
