@@ -178,5 +178,9 @@
   {
     "name": "Right",
     "colors": ["#4464a1", "#62b6de", "#b3dce0", "#fafafa", "#ffc5c7", "#ee726b", "#cd1440"]
+  },
+  {
+    "name": "Slussen",
+    "colors": ["#fafafa", "#f398c3", "#f44e24", "#f4d730", "#23b247", "#2a76d3", "#0a0a0a"]
   }
 ]
