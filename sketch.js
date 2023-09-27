@@ -89,5 +89,10 @@ function createPalette(p) {
       //codeP.style("width", (divWidth-40)+"px");
       codeP.parent(container);
     };
+
+    sketch.windowResized = () => {
+      sketch.removeElements();
+      sketch.setup();
+    }
   }, contentDiv);
 }

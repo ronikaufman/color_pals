@@ -182,5 +182,13 @@
   {
     "name": "Slussen",
     "colors": ["#fafafa", "#f398c3", "#f44e24", "#f4d730", "#23b247", "#2a76d3", "#0a0a0a"]
+  },
+  {
+    "name": "Poet",
+    "colors": ["#f4f3ed", "#efc807", "#ed5d53", "#e2dbb5", "#45291c", "#080b0f"]
+  },
+  {
+    "name": "Daily",
+    "colors": ["#131314", "#272829", "#ffe18e", "#fff0c6"]
   }
 ]
