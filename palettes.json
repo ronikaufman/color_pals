@@ -190,5 +190,9 @@
   {
     "name": "Daily",
     "colors": ["#131314", "#272829", "#ffe18e", "#fff0c6"]
+  },
+  {
+    "name": "Bananaberry",
+    "colors": ["#ffffbf", "#f2f218", "#660535", "#f260e3", "#ffbff8"]
   }
 ]
