@@ -194,5 +194,9 @@
   {
     "name": "Bananaberry",
     "colors": ["#ffffbf", "#f2f218", "#660535", "#f260e3", "#ffbff8"]
+  },
+  {
+    "name": "Podcast",
+    "colors": ["#584594", "#e488b7", "#d74c41", "#f0d235", "#36ad63", "#69bcea", "#fdfdfd"]
   }
 ]
